@@ -1,0 +1,5 @@
+{:paths ["src"]
+ :deps {org.clojure/clojure {:mvn/version "1.10.0-RC4"}}
+ :aliases {:depstar
+           {:extra-deps
+            {seancorfield/depstar {:mvn/version "0.1.5"}}}}}

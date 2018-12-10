@@ -1,0 +1,5 @@
+#!/bin/sh
+
+set -euo pipefail
+set -x
+exec /opt/java/bin/java -cp /opt/__runtime:$LAMBDA_TASK_ROOT com.ghadi.lambda.Bootstrap
